@@ -39,7 +39,7 @@ import br_evo_game
 
 # ==================== CONFIGURATION ====================
 WEB_HOST = "0.0.0.0"
-WEB_PORT = int(os.environ.get("PORT", 5004))  # ✅ Railway uses $PORT env variable
+WEB_PORT = int(os.environ.get("PORT", 25716))  # ✅ Railway uses $PORT env variable
 
 # ✅ FIX: Absolute paths — works from ANY working directory
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
